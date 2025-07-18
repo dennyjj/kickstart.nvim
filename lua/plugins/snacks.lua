@@ -24,7 +24,7 @@ return {
     -- Top Pickers & Explorer
     { '<leader><space>', function() Snacks.picker.smart() end, desc = 'Smart Find Files' },
     { '<leader>n', function() Snacks.picker.notifications() end, desc = 'Notification History' },
-    { '<leader>e', function() Snacks.explorer() end, desc = 'File Explorer' },
+    { '<leader>se', function() Snacks.explorer() end, desc = 'File Explorer' },
     -- find
     { '<leader>fc', function() Snacks.picker.files { cwd = vim.fn.stdpath 'config' } end, desc = 'Find Config File' },
     { '<leader>ff', function() Snacks.picker.files() end, desc = 'Find Files' },
